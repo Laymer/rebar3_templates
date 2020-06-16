@@ -1,0 +1,6 @@
+{description, "A gen_server template for Erlang LS"}.
+{variables, [ {name, "unnamed", "Name for the generic server"}
+            ]}.
+
+{dir, "src"}.
+{template, "idea_gen_server.erl", "src/{{name}}.erl"}.
